@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="nut.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список фильмов</title>
+  <script src="nut.js" defer></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <label for="movieName">Название фильма</label>
-    <input id="movieName" type="text">
-    <label for="moviePoster">Ссылка на обложку</label>
-    <input id="moviePoster" type="text" placeholder="https://…">
-    <button id="addMovie" type="button">Добавить</button>
-    
+  <div class="box">
     <h1>Что посмотреть</h1>
+    <div class="form">
+      <div class="field">
+        <label for="movieName">Название фильма</label>
+        <input id="movieName" type="text">
+      </div>
+      <div class="field">
+        <label for="moviePoster">Ссылка на обложку</label>
+        <input id="moviePoster" type="text" placeholder="https://…">
+      </div>
+      <button id="addMovie" type="button">Добавить</button>
+    </div>
     <ul id="movieList"></ul>
-
+  </div>
 </body>
 </html>
