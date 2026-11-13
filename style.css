@@ -1,5 +1,5 @@
 body{
-  background-color: #f0f4f3;
+  background-color: #edf2f1;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 40px;
@@ -11,11 +11,11 @@ body{
   width: 700px;
   padding: 30px 40px;
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow:  0 4px 10px rgba(0, 0, 0, 0.05);
 }
 h1{
   margin-top: 0;
-  color: #1a4d2e;
+  color: #0f3c27;
 }
 .form{
   display: flex;
@@ -32,16 +32,18 @@ label{
   font-weight: bold;
   font-size: 14px;
   margin-bottom: 5px;
+  color: #0f3c27;
 }
 input{
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #cbd5e1;
   border-radius: 6px;
   font-size: 14px;
+  color: #333
 }
 #addMovie{
   padding: 10px 20px;
-  background-color: #1a7a4d;
+  background-color: #126b47;
   color: white;
   border: none;
   border-radius: 6px;
@@ -49,7 +51,7 @@ input{
   font-weight: bold;
 }
 #addMovie:hover{
-  background-color: #1a4d2e;
+  background-color: #0f3c27;
 }
 #movieList{
   list-style: none;
@@ -60,7 +62,7 @@ input{
   display: flex;
   align-items: center;
   padding: 15px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e2e8f0;
 }
 #movieList img{
   width: 60px;
@@ -72,15 +74,18 @@ input{
 #movieList span{
   flex: 1;
   font-weight: bold;
+  color: #1a202c;
 }
 #movieList button{
   padding: 6px 12px;
   background-color: white;
-  color: #d32f2f;
-  border: 1px solid #d32f2f;
+  color: #c0392b;
+  border: 1px solid #c0392b;
   border-radius: 6px;
   cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
 }
 #movieList button:hover{
-  background-color: #ffeeee;
+  background-color:  #fdf2f2;
 }
