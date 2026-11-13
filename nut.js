@@ -4,9 +4,9 @@ const movieTitles = [
   'Поезд на север',
 ];
 const moviePosters = [
-  'covers/space.jpg',
-  'covers/house.jpg',
-  'covers/train.jpg',
+  'covers/space.jpg.jpg',
+  'covers/house.jpg.jpg',
+  'covers/train.jpg.webp',
 ];
 
 const movieList = document.getElementById('movieList');
